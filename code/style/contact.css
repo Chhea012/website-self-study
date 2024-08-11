@@ -1,0 +1,322 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(../../image/14.png);
+    object-fit: cover;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+}
+b {
+    background-color: rgb(1, 1, 175);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav {
+    padding-top: 3%;
+    text-align: end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: #000;
+    padding: 20px;
+}
+a {
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    padding: 4px;
+    color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(10, 85, 247);
+    background-color: rgba(255, 254, 254, 0.082)
+}
+.logo {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.logo img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.continue{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(168, 169, 170, 0.301);
+    height: 500px;
+    margin-left: 25%;
+    margin-right:25%;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 5px rgba(255, 255, 255, 0.493);
+    transition: transform 0.3s, box-show 0.3s, background-color 0.3s;
+}
+.invite{
+    text-align: start;
+    margin: 20px;
+    align-self: center;
+}
+/* .continue:hover{
+    transform:translateY(-10px);
+} */
+.invite h1{
+    text-align: center;
+    font-size: 40px;
+}
+.invite h2:hover{
+    color: rgb(48, 1, 255);
+} 
+.invite h3:hover{
+    color: blue;
+} 
+#hi {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.4s ease-in-out;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#hi-1 {
+    position: absolute;
+    margin-left: 15%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.4s ease-in-out;
+    border-radius: 50%;
+}
+
+#hi-2 {
+    position: absolute;
+    margin-left: 25%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.4s ease-in-out;
+    border-radius: 50%;
+}
+
+#hi-3 {
+    position: absolute;
+    margin-left: 35%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.4s ease-in-out;
+    border-radius: 50%;
+}
+
+#hi:hover {
+    color: blue;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: scale(0.9);
+
+}
+
+#hi-1:hover {
+    color: blue;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: scale(0.9);
+}
+
+#hi-2:hover {
+    color: blue;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: scale(0.9);
+}
+
+#hi-3:hover {
+    color: blue;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: scale(0.9);
+}
+.contact a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 15px;
+    color: white;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact h5 {
+    color: rgb(0, 47, 255);
+    font-size: 20px;
+    margin: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact a h5:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+
+
+.contact {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.contact a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.contact h5 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.country {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 10px;
+}
+
+.pnc {
+    display: flex;
+    align-self: center;
+    margin-right: 50%;
+    flex-direction: column;
+    transition: transform 0.3s;
+
+}
+
+.pnc img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    object-fit: cover;
+    margin-left: 100%;
+}
+
+.pnc img:hover {
+    transform: scale(0.9);
+}
+
+.invite {
+    color: white;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20%;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0.411);
+    padding: 20PX;
+    border-radius: 20PX;
+}
+
+.invite h6 {
+    font-size: 20px;
+}
+h1{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+.can{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.can-1{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.can-2{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.continue-1{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 60%;
+}
+
+.continue-1 img{
+    width: 400px;
+    height: 400px;
+    transition: transform 0.3s;
+}
+.continue-1 img:hover{
+    transform: translate(-15px);
+}

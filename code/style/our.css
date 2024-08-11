@@ -1,0 +1,400 @@
+header {
+    background-image: url(../../image/8.png);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+b {
+
+    background-color: rgb(1, 1, 175);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav {
+    padding-top: 3%;
+    text-align: end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: #000;
+    padding: 20px;
+}
+
+a {
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    padding: 4px;
+    color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(10, 85, 247);
+    background-color: rgba(255, 254, 254, 0.082)
+}
+
+.logo {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.logo img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 247, 247, 0.253);
+    padding: 15px;
+    margin: 20px;
+}
+
+.container-2 h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-2 p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-2 {
+    align-items: center;
+    width: 30%;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 20px;
+    transition: transform 0.3s, box-show 0.3s, background-color 0.3s;
+}
+
+h4 {
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgb(8, 252, 219);
+}
+
+.container-2 img {
+    margin: 10px;
+    width: 360px;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 255, 0.158);
+    border-radius: 10px;
+}
+
+.container-2:hover {
+    transform: translateY(-10px);
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.247);
+}
+
+.container-2 h2:hover {
+    color: rgb(4, 255, 234);
+}
+
+.title img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    border-radius: 50%;
+    border: 5px solid lightcyan;
+    margin-top: 15%;
+}
+
+.title img:hover {
+    transform: scale(0.9);
+    border-radius: 50%;
+    border: 5px solid lightcyan;
+}
+
+.title {
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+    align-items: end;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 10%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.string p {
+    border-radius: 20px;
+    background-color: rgba(12, 202, 236, 0.616);
+    padding: 20px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+p.para{
+     position: absolute;
+    margin-top: 35%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.4s ease-in-out;
+    background-color:rgba(12, 202, 236, 0.616);
+    border-radius: 20px;
+    padding: 20px;
+}
+p.para:hover{
+    color: #000;
+    transform: translate(-10px);
+    background-color: rgba(255, 255, 255, 0.822);
+}
+.string p:hover{
+    color: #000;
+    transform: translate(-10px);
+    background-color: rgba(255, 255, 255, 0.849);
+}
+.btn{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    color: #ffffff;
+    background-color: rgb(0, 200, 250);
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 2px 5px 5px rgb(179, 241, 245);
+}
+
+.container-0 h3 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-0 h3:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+.container-0 p {
+    font-size: 20px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+.container-0 {
+    align-items: center;
+    width: 30%;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 20px;
+    transition: transform 0.3s, box-show 0.3s, background-color 0.3s;
+}
+p.figma{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin-left: 15%;
+}
+p.figma-1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin-left: 10%;
+}
+p.figma-2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+    margin-left: 15%;
+}
+.container-0:hover{
+    transform: translateY(-10px);
+    background-color: rgb(60, 189, 146);
+}
+p.find{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin-left: 15%;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact h5 {
+    color: rgb(0, 47, 255);
+    font-size: 20px;
+    margin: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact a h5:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.contact h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 15px;
+    color: white;
+}
+.contact a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact h5 {
+    color: rgb(0, 47, 255);
+    font-size: 20px;
+    margin: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact a h5:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.contact a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.contact h5 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.country {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 10px;
+}
+.pnc {
+    display: flex;
+    align-self: center;
+    margin-right: 50%;
+    flex-direction: column;
+    transition: transform 0.3s;
+
+}
+
+.pnc img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    object-fit: cover;
+    margin-left: 100%;
+}
+
+.pnc img:hover {
+    transform: scale(0.9);
+}
+
+.invite {
+    color: white;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20%;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0.411);
+    padding: 20PX;
+    border-radius: 20PX;
+}
+
+.invite h6 {
+    font-size: 20px;
+}
+
+.card {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-1 {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(89, 122, 128, 0.253);
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.card-1:hover {
+    transform: translate(-10px);
+    background-color: rgba(20, 103, 211, 0.342);
+}
